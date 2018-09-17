@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;trainBookingApplication.SeatPositon&apos; to &apos;SeatPosition&apos;&#x0D;&#x0A;- Original project: &apos;Assingment 2&apos;&#x0D;&#x0A;- Original element: &apos;trainBookingApplication.SeatPositon&apos;&#x0D;&#x0A;- Renamed element: &apos;trainBookingApplication.SeatPosition&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SeatPositon&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;trainBookingApplication{SeatPositon.java[SeatPositon" matchStrategy="1" name="SeatPosition" qualified="false" references="true" similarDeclarations="false" stamp="1504580304541" textual="false" version="1.0"/>
+</session>

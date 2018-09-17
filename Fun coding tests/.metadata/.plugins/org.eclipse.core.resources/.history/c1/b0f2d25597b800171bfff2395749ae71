@@ -1,0 +1,9 @@
+package recursion;
+
+public class Recursion {
+
+	public static int func(int n){
+		 return 1 + func(n-1);
+	}
+	
+}

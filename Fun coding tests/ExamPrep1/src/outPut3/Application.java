@@ -1,0 +1,25 @@
+package outPut3;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		double r = 0.0;
+		System.out.println("Please enter a number:");
+		try{
+			r = scan.nextDouble();
+		}catch(InputMismatchException e){
+			r=-1.0;
+		}
+		finally{
+			r++;
+		}
+		
+		System.out.println(r);
+
+	}
+
+}

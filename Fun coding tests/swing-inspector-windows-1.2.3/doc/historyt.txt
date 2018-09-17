@@ -1,0 +1,51 @@
+1.2.0
+	完成基本开发agent端和swing端，形成一个基本可发布版本，PropertiesEditor、Expression、JavaScript，stacktrace
+
+1.2.1
+	2012-12-25 常用快捷键绑定及一些bug修复。
+	
+1.2.2
+	兼容ibm jdk 1.6和1.7
+	窗口透明采用windows api实现(因为1.6和1.7java内部实现不统一，在1.7窗口透明有一定限制)
+	增加Console视图，并实现与stdout和stderr关联
+	窗口大小、位置、透明度等各种参数保存和加载功能
+	可以用快捷键移动、更改大小(有提示窗口)
+	增加Overview视图，显示常用信息
+	支持Mac OS X和Linux系统
+	界面语言国际化，支持中文界面
+	
+	beta4
+	支持在debug模式记录stacktrace功能
+	增加组件创建的时的StackTrace，支持跟踪对象创建过程
+	支持在组件层次变化后自动更新SwingInspector组件树，支持实例监视菜单
+	支掉“总在前”功能，采用变化时自动将窗口显示到前台方式
+	javascript支持语法着色和行号
+	StackTrace视图支持附加源代码、在stackView视图中点击直接定位到代码行，代码支持语法着色，并支持在外部编辑器打开
+	增加SwingInspector日志功能
+	绑定快捷键Create StackTrace快捷键
+	
+	beta5
+	1. 附加源文件列表双击调用外部编辑器打开
+	2. 还原总在前功能
+	3. 定位到源代码时，光标移动到可见区域中央
+	4. 添加源文件搜索功能
+	5. 源文件查找路径自动导入$JAVA_HOME/src.zip(如果存在)
+	6. 解决对话框关闭后界面焦点不切换到SwingInspector主窗口问题
+	7. 添加皮肤切换功能
+	
+	beta6
+	1. 修复切换皮肤时表达式有时丢失BUG
+	2. Source FileFinder、Source Attachment Dialog支持调整大小
+	3. 修复在Nimbus皮肤下，移动、调整大小时出现NullPointerException BUG (跨AppContext操作引起)
+	4. 表达式编辑器在Nimbus皮肤下高度不够处理
+	5. 修复切换UI后右键菜单弹出有异常出现 BUG (跨AppContext操作引起)
+	6. Component Tree添加图标
+
+	1.2.2
+	1. 增加修改用户软件皮肤功能(通过右键菜单)
+	2. Component Tree中显示RootPane，glassPane，contentPane
+	3. 属性添加搜索功能
+	4. 表达式添加搜索功能
+	5. 界面图标美化
+	6. 属性编辑器不可编辑的以灰色显示
+	7. 增加CellRendererPanel、JTableHeader、JViewport图标

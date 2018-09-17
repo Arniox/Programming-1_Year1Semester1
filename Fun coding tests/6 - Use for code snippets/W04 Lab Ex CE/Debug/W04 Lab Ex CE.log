@@ -1,0 +1,12 @@
+﻿Build started 17/05/2017 11:43:22 PM.
+     1>Project "O:\AUT\CODING\6 - Use for code snippets\W04 Lab Ex CE\W04 Lab Ex CE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /Wall /WX /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4242 /wd4244 /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>o:\aut\coding\6 - use for code snippets\w04 lab ex ce\source.c(9): error C2220: warning treated as error - no 'object' file generated
+     1>o:\aut\coding\6 - use for code snippets\w04 lab ex ce\source.c(9): warning C4047: 'initializing' : 'int *' differs in levels of indirection from 'int (*)[4]'
+     1>Done Building Project "O:\AUT\CODING\6 - Use for code snippets\W04 Lab Ex CE\W04 Lab Ex CE.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.10

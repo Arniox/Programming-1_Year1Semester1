@@ -1,0 +1,5 @@
+package outPut1;
+
+public abstract class Vehical {
+
+}

@@ -1,0 +1,17 @@
+package recursion;
+
+import java.util.Scanner;
+
+public class Recursion {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Input a number: ");
+		Scanner scan = new Scanner(System.in);
+	}
+	
+	public static int func(int n){
+		 return 1 + func(n-1);
+	}
+	
+}

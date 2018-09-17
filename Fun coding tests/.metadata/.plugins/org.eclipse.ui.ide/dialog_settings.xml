@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="O:\AUT\CODING\RelativeDatabaseSearch"/>
+		<item value="O:\AUT\CODING\Week8"/>
+		<item value="O:\AUT\CODING\MVCTemplate"/>
+		<item value="O:\AUT\PAPPERS\Semester 2\Programming 2\Week6Lab"/>
+	</list>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="117" key="DIALOG_X_ORIGIN"/>
+		<item value="321" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,11 @@
+package outPut1;
+
+public class Truck extends Vehical {
+
+	@Override
+	public void printColour() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

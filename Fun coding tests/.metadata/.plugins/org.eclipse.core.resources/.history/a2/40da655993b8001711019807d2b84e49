@@ -1,0 +1,5 @@
+package outPut2;
+
+public abstract class Shape {
+
+}

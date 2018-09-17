@@ -1,0 +1,14 @@
+package recursion;
+
+public class Recursion {
+
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	public static int func(int n){
+		 return 1 + func(n-1);
+	}
+	
+}
